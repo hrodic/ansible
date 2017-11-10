@@ -4,4 +4,4 @@
 - hosts: localhost
   tasks:
   roles:
-    - geerlingguy.docker
+    - geerlingguy.docke r
