@@ -1,7 +1,0 @@
----
-# This playbook deploys docker
-
-- hosts: localhost
-  tasks:
-  roles:
-    - geerlingguy.docke r

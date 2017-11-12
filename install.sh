@@ -1,10 +1,10 @@
-#bin/bash
+#!/usr/bin/env bash
 
 # roles
 ansible-galaxy install geerlingguy.docker -p roles
 
 # install docker and docker-compose in local machine
-ansible-playbook site.yml -i hosts.ini
+ansible-playbook development.yml -i hosts.ini
 
 if [ ! -f /usr/local/bin/docker-machine ]; then
     # docker machine
